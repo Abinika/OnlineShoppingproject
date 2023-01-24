@@ -28,14 +28,10 @@ try{
     ps.executeUpdate();
     response.sendRedirect("signup.jsp?msg=valid");
 }
-
 catch(Exception e)
 {
 	System.out.println(e);
     response.sendRedirect("signup.jsp?msg=invalid");
 
 	}
-
-
-
 %>

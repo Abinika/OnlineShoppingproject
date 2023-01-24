@@ -1,3 +1,7 @@
+<%@ page import="project.ConnectionProvider"%>
+<%@ page import="java.sql.*"%>
+<%@include file="adminHeader.jsp" %>
+<%@include file="../footer.jsp" %>
 
 <html>
 <head>
@@ -12,6 +16,24 @@
 
 
 <h3 style="color: yellow;">Product ID: </h3>
+
+<%
+int id=1;
+try{
+	Connection con=ConnectionProvider.getCon();
+	Statement st = con.createStatement();
+	ResultSet rs=st.executeQuery("select max(id) from products");
+	while(rs.next())
+	{
+		id=rs.getInt(1);
+		id=id+1;
+	}
+	
+}
+catch(Exception e )
+{}
+
+%>
 
 
 <div class="left-div">
