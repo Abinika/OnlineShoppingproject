@@ -40,7 +40,7 @@
 <h1>Some thing Went Wrong! Try Again !</h1>
 
     <h2>Online Shopping</h2>
-    <p>The Online Shopping System is the application that allows the users to shop online.</p>
+    <p>The Online Shopping System is application that allows the users to shop online.</p>
   </div>
 </div>
 
