@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>welcome</title>
+<title>Online Shopping App</title>
 <style>
 h1
 {
@@ -13,6 +13,6 @@ font-size: 100px;
 }</style>
 </head>
 <body>
-<h1>Welcome Madhunika!</h1>
+<h1>Welcome Madhunika</h1>
 </body>
 </html>
